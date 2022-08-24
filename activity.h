@@ -7,7 +7,7 @@
 // =================================================================
 #ifndef ACTIVITY_H
 #define ACTIVITY_H
-
+#include <iostream>
 // =================================================================
 // sumaIterativa. Calculate the sum from 1 to n with an iterative
 // method.
@@ -52,8 +52,21 @@ unsigned int sumaRecursiva(unsigned int n) {
 // @Complexity	O(n^2)
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
-	int k = n(n + 1)/2;
+	int k = n*(n + 1)/2;
 	return k;
 }
+
+// =================================================================
+//
+// main para calcular casos de prueba
+// =================================================================
+int main () {
+  unsigned int n = 100;
+
+  std::cout << sumaIterativa(n) << std::endl;
+  std::cout << sumaRecursiva(n) << std::endl;
+  std::cout << sumaDirecta(n) << std::endl;
+
+};
 
 #endif /* ACTIVITY_H */
