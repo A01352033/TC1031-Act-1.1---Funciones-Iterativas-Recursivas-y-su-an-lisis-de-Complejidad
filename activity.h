@@ -49,7 +49,7 @@ unsigned int sumaRecursiva(unsigned int n) {
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	O(n^2)
+// @Complexity	O(1)
 // =================================================================
 unsigned int sumaDirecta(unsigned int n) {
 	int k = n*(n + 1)/2;
