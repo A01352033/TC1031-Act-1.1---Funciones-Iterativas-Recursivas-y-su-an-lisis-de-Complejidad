@@ -17,7 +17,7 @@
 // @Complexity	O(n)
 // =================================================================
 unsigned int sumaIterativa(unsigned int n) {
-	int contador = 0
+	int contador = 0;
 	
 	for (int i = 1; i < n; i++) {
 		     contador += i;
