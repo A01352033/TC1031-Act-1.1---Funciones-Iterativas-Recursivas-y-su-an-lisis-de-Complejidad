@@ -31,7 +31,7 @@ unsigned int sumaIterativa(unsigned int n) {
 //
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
-// @Complexity	T(n)
+// @Complexity	O(n)
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n) {
 	if (n == 1) {
